@@ -1,0 +1,6 @@
+package com.aurionpro.di.entity;
+
+public class Computer {
+	private String name;
+	
+}

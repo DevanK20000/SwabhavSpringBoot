@@ -1,0 +1,24 @@
+package com.aurionpro.dbconnect.repository;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.aurionpro.dbconnect.entity.Student;
+
+import jakarta.persistence.EntityManager;
+
+public class StudentRepositoryImpl implements StudentRepository {
+
+	@Autowired
+	private EntityManager entityManager;
+	
+	@Override
+	public List<Student> getAllStudent() {
+		
+		entityManager.createQuery("create s from students s",Student.class);
+
+		return null;
+	}
+
+}

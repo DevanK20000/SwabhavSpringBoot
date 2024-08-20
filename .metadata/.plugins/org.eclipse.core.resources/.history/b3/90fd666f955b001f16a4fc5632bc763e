@@ -1,0 +1,18 @@
+package com.aurionpro.di.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.aurionpro.di.entity.Computer;
+
+@RestController
+public class ComputerController {
+
+	@Autowired
+	private Computer computer;
+	
+	public Computer getComputer() {
+		return computer;
+	}
+	
+}

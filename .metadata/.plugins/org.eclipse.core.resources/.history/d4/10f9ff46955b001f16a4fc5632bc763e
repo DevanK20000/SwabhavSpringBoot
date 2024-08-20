@@ -1,0 +1,16 @@
+package com.aurionpro.di.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.aurionpro.di.entity.Computer;
+
+@RestController
+public class ComputerController {
+
+	private Computer getComputer()
+	
+	public Computer getComputer() {
+		
+	}
+	
+}
