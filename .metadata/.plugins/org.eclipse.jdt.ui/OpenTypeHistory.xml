@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
     <typeInfo handle="=02-firstsprintg-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.first{Application.java[Application" modifiers="1" timestamp="1723784623684"/>
-    <typeInfo handle="=03-dbconnection-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.dbconnect.repository{StudentRepository.java[StudentRepository" modifiers="513" timestamp="1723793583935"/>
+    <typeInfo handle="=03-dbconnection-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.dbconnect.repository{StudentRepository.java[StudentRepository" modifiers="513" timestamp="1724138648743"/>
+    <typeInfo handle="=03-dbconnection-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.dbconnect.service{StudentService.java[StudentService" modifiers="513" timestamp="1724138735812"/>
+    <typeInfo handle="=03-dbconnection2-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.dbconnect.service{EmployeeService.java[EmployeeService" modifiers="513" timestamp="1724137627244"/>
+    <typeInfo handle="=03-dbconnection_loan-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.dbconnect.repository{CustomerRepository.java[CustomerRepository" modifiers="513" timestamp="1724173715623"/>
+    <typeInfo handle="=03-dbconnection_loan-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.dbconnect.service{CustomerService.java[CustomerService" modifiers="513" timestamp="1724173416070"/>
+    <typeInfo handle="=03-dbconnection_loan-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.dbconnect.repository{LoanRepository.java[LoanRepository" modifiers="513" timestamp="1724173764152"/>
+    <typeInfo handle="=03-dbconnection_loan-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.dbconnect.service{LoanService.java[LoanService" modifiers="513" timestamp="1724173732876"/>
+    <typeInfo handle="=04-jpacurd-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.dbconnect.service{StudentService.java[StudentService" modifiers="513" timestamp="1724303512422"/>
+    <typeInfo handle="=05-exceptionhandeling_cash-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.dbconnect.service{ClientService.java[ClientService" modifiers="513" timestamp="1724319759938"/>
+    <typeInfo handle="=05-exceptionhandeling_cash-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.dbconnect.service{ClientServiceImpl.java[ClientServiceImpl" modifiers="1" timestamp="1724320042226"/>
+    <typeInfo handle="=06-advancedmapping-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.mapping.service{StudentService.java[StudentService" modifiers="513" timestamp="1724763501690"/>
+    <typeInfo handle="=06-advancedmapping-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.mapping.service{CourseService.java[CourseService" modifiers="513" timestamp="1724826526503"/>
+    <typeInfo handle="=04-jpacurd_cash-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.dbconnect.entity{Client.java[Client" modifiers="1" timestamp="1724246581105"/>
+    <typeInfo handle="=06-advancedmapping_csah-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.mapping.repository{EmployeeRepository.java[EmployeeRepository" modifiers="513" timestamp="1724506774223"/>
+    <typeInfo handle="=05-exceptionhandeling-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.dbconnect.errors{StudentErrorResponse.java[StudentErrorResponse" modifiers="1" timestamp="1724306681445"/>
+    <typeInfo handle="=09-jwt-security-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.aurionpro.jwtSecurity.service{AuthService.java[AuthService" modifiers="513" timestamp="1724999962595"/>
 </typeInfoHistroy>

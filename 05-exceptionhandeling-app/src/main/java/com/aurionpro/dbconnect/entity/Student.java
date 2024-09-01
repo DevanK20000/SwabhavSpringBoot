@@ -1,0 +1,41 @@
+package com.aurionpro.dbconnect.entity;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
+
+@Entity
+@Table(name = "students")
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@ToString
+public class Student {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "rollno")
+	private Integer rollno;
+	
+	@NotBlank(message = "Name is mandatory")
+	@NotNull(message = "Name is mandatory")
+	@Column(name = "name")
+	private String name;
+	
+	@Min(value = 18, message = "Minimum age should be 18")
+	@Column(name = "age")
+	private Integer age;
+	
+}

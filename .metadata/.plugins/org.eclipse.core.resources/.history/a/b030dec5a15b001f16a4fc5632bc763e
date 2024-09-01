@@ -1,5 +1,0 @@
-package com.aurionpro.dbconnect.repository;
-
-public interface StudentRepository {
-
-}

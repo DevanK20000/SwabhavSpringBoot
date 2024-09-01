@@ -1,6 +1,0 @@
-package com.aurionpro.di.entity;
-
-public class HardDisk {
-	private Integer capacity;
-	
-}

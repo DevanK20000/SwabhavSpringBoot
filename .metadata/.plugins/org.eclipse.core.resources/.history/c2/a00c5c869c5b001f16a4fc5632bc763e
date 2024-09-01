@@ -1,7 +1,0 @@
-package com.aurionpro.entity;
-
-public class Student {
-	private Integer rollno;
-	private String name;
-	private Integer age;
-}

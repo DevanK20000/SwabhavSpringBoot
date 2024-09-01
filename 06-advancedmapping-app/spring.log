@@ -1,0 +1,82 @@
+2024-08-28T12:07:56.353+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] com.aurionpro.mapping.Application        : Starting Application using Java 21.0.3 with PID 15696 (D:\sts\06-advancedmapping-app\target\classes started by deven.khandagale in D:\sts\06-advancedmapping-app)
+2024-08-28T12:07:56.355+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] com.aurionpro.mapping.Application        : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T12:07:56.399+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-28T12:07:56.400+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-28T12:07:57.035+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T12:07:57.119+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 4 JPA repository interfaces.
+2024-08-28T12:07:57.657+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-28T12:07:57.675+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T12:07:57.675+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T12:07:57.742+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T12:07:57.742+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1320 ms
+2024-08-28T12:07:57.889+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28T12:07:57.937+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-28T12:07:57.971+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-28T12:07:58.232+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T12:07:58.258+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-28T12:07:58.636+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62507e7
+2024-08-28T12:07:58.638+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-28T12:08:00.069+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-28T12:08:00.232+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T12:08:01.077+05:30  WARN 15696 --- [06-advancedmapping-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28T12:08:01.861+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T12:08:01.980+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-28T12:08:01.994+05:30  INFO 15696 --- [06-advancedmapping-app] [restartedMain] com.aurionpro.mapping.Application        : Started Application in 5.982 seconds (process running for 6.882)
+2024-08-28T12:11:26.532+05:30  INFO 15696 --- [06-advancedmapping-app] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-28T12:11:26.546+05:30  INFO 15696 --- [06-advancedmapping-app] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T12:11:26.551+05:30  INFO 15696 --- [06-advancedmapping-app] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-28T12:11:26.561+05:30  INFO 15696 --- [06-advancedmapping-app] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-28 12:11:26.670 [restartedMain] INFO  com.aurionpro.mapping.Application - Starting Application using Java 21.0.3 with PID 15696 (D:\sts\06-advancedmapping-app\target\classes started by deven.khandagale in D:\sts\06-advancedmapping-app)
+2024-08-28 12:11:26.670 [restartedMain] INFO  com.aurionpro.mapping.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 12:11:26.841 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28 12:11:26.877 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 4 JPA repository interfaces.
+2024-08-28 12:11:26.957 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-28 12:11:26.958 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-28 12:11:26.958 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28 12:11:26.998 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-28 12:11:26.998 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 326 ms
+2024-08-28 12:11:27.033 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 12:11:27.034 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-28 12:11:27.042 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28 12:11:27.043 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-08-28 12:11:27.056 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7699a06
+2024-08-28 12:11:27.057 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-08-28 12:11:27.161 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-28 12:11:27.205 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 12:11:27.320 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28 12:11:27.423 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-28 12:11:27.437 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-28 12:11:27.441 [restartedMain] INFO  com.aurionpro.mapping.Application - Started Application in 0.798 seconds (process running for 212.33)
+2024-08-28 12:11:27.447 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-28 12:11:37.576 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2024-08-28 12:11:37.587 [RMI TCP Connection(15)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 12:11:37.588 [RMI TCP Connection(15)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2024-08-28 12:11:37.595 [RMI TCP Connection(15)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2024-08-28 12:11:48.449 [restartedMain] INFO  com.aurionpro.mapping.Application - Starting Application using Java 21.0.3 with PID 1772 (D:\sts\06-advancedmapping-app\target\classes started by deven.khandagale in D:\sts\06-advancedmapping-app)
+2024-08-28 12:11:48.451 [restartedMain] INFO  com.aurionpro.mapping.Application - No active profile set, falling back to 1 default profile: "default"
+2024-08-28 12:11:48.493 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-28 12:11:48.493 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-28 12:11:49.081 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28 12:11:49.199 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 111 ms. Found 4 JPA repository interfaces.
+2024-08-28 12:11:49.656 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-28 12:11:49.670 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-28 12:11:49.670 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28 12:11:49.718 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-28 12:11:49.718 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1225 ms
+2024-08-28 12:11:49.867 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28 12:11:49.904 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-28 12:11:49.925 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-28 12:11:50.219 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28 12:11:50.276 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-28 12:11:51.018 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5eadc984
+2024-08-28 12:11:51.022 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-28 12:11:53.189 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-28 12:11:53.265 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 12:11:53.616 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28 12:11:53.955 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-28 12:11:54.001 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-28 12:11:54.009 [restartedMain] INFO  com.aurionpro.mapping.Application - Started Application in 5.928 seconds (process running for 6.812)
+2024-08-28 12:19:33.471 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-28 12:19:33.485 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28 12:19:33.490 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-28 12:19:33.500 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
